@@ -1,93 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Fit Raho Gym
+        FitRaho Gym: Fit Raho Swasth Raho
     </title>
     <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
     <link rel="stylesheet" href="utils.css">
 </head>
-<body>
+
+<body class='overflow-x-hidden'>
     <div class="container mx-auto">
         <header>
             <nav class="flex justify-between">
-
-                <div class="font-bold flex items-center text-blue">
-                    Fit Raho Gym
+                <div class="logo font-bold flex items-center text-blue">
+                    FitRaho Gym
                 </div>
-
                 <ul class="navbar flex items-center">
-
                     <li>
-                        <a href="#">
+                        <a href="#home">
                             Home
                         </a>
                     </li>
-
                     <li>
-                        <a href="#">
+                        <a href="#about">
                             About
                         </a>
                     </li>
-
                     <li>
-                        <a href="#">
+                        <a href="#services">
                             Services
                         </a>
                     </li>
-
                     <li>
-                        <a href="#">
-                            Contact Us
+                        <a href="#contact">
+                            Contact
                         </a>
                     </li>
-
                     <li>
                         <button class="btn">
                             Join Now
                         </button>
                     </li>
-
                 </ul>
-
             </nav>
             <hr>
-
         </header>
-        
-        <main class="min-h-screen ">
-
+        <main class="min-h-screen">
             <section class="section1">
-
                 <div class="flex">
-
-                    <div class="topleft flex justify-center flex-col px-2">
-                        <h1 class="my-1">Fit Raho Gym</h1>
-                        <p>Fit Raho Gym is a gym that provides you with the best fitness training and gives you the best environment to workout. We have the best trainers and the best equipment to help you achieve your fitness goals.</p>
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="dumbellimg" src="dumbell.png" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">
+                            The best fitness Gym in the town is here
+                        </h1>
+                        <p class=" text-center">
+                            Fit Raho Gym is a gym that provides you with the best fitness training and gives you the best environment to workout. We have the best trainers and the best equipment to help you achieve your fitness goals.
+                        </p>
+                    </p>
+                            <!-- Display the countdown timer in an element -->
+                            <p class="deal text-center">
+                                The deal ends in 
+                                <span id="demo"></span>
+                            </p>
+                            <div class="buttons">
+                                <button class="btn">
+                                    Join now
+                                </button>
+                                <button class="btn">
+                                    Contact Us
+                                </button>
+                            </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="gym.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">
+                    Pricing
+                </h1>
+                <p class="my-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis provident
+                    suscipit temporibus modi voluptatem. Assumenda aspernatur ad nihil quasi expedita eligendi atque?
+                    Dolorum eum deserunt dicta iste beatae commodi, doloribus expedita hic recusandae, tempora illum
+                    consequuntur? Necessitatibus voluptate animi repellendus reiciendis!
+                </p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>
+                            Free
+                        </h2>
+                        <ul>
+                            <li class="highlighted">₹0/month</li>
+                            <li>0 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Pro</h2>
+                        <ul>
+                            <li class="highlighted">₹150/month</li>
+                            <li>0 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>
+                            Enterprise
+                        </h2>
+                        <ul>
+                            <li class="highlighted">₹500/month</li>
+                            <li>0 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
                     </div>
 
-                    <div class="topright"></div>
                 </div>
-
             </section>
             <hr>
-
-            <section>
-
-            </section>
-            <hr>
-
-            <section>
-                
+            <section class="section3">
+                <h1 class="text-center my-2">
+                    Compare Plans
+                </h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                      <thead>
+                        <tr>
+                          <th></th><th>Free</th>
+                          <th>Pro</th>
+                          <th>Enterprise</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Public</th>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Private</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                      </tbody>
+              
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Permissions</th>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Sharing</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Unlimited members</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Extra security</th>
+                          <td>-</td>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                        </tr>
+                      </tbody>
+                    </table>
             </section>
             <hr>
         </main>
-
         <footer>
-            I am footer
+            Copyright &copy 2024 | <a class="links" href="#websitelink">fitrahoswasthraho.com</a> | All rights reserved
         </footer>
+
     </div>
 </body>
+
 </html>
