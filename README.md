@@ -46,3 +46,51 @@ This project is not licensed.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Here's a GitHub README description for the To-Do List repository:
+
+---
+
+## Octanet To-Do List
+
+Welcome to the Octanet To-Do List repository! This project features a simple and functional to-do list application that allows users to manage their tasks efficiently.
+
+### Features
+
+- **Task Management**: Add, edit, and delete tasks with ease.
+- **Persistent Data**: Tasks are saved in local storage, so your data persists across sessions.
+- **User-Friendly Interface**: Intuitive design that makes task management straightforward and efficient.
+- **Responsive Design**: Works well on both desktop and mobile devices.
+
+### Getting Started
+
+To get started with the Octanet To-Do List, follow these steps:
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/PriyanshuKSharma/Octanet_July.git
+   ```
+
+2. **Navigate to the Project Directory**
+
+   ```bash
+   cd Octanet_July/To-Do\ List
+   ```
+
+3. **Open the To-Do List Application**
+
+   Open `index.html` in your preferred web browser to use the to-do list application.
+
+### Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+### Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
+
+### License
+
+This project is not licensed.
