@@ -40,15 +40,11 @@ To get started with the Octanet Landing Page, follow these steps:
 
 Contributions are welcome! If you have suggestions or improvements, please create a pull request or open an issue.
 
-## License
+### License
 
 This project is not licensed.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Here's a GitHub README description for the To-Do List repository:
-
----
 
 ## Octanet To-Do List
 
